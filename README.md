@@ -1,11 +1,15 @@
+/**
+ *Submitted for verification at BscScan.com on 2024-01-20
+*/
+
 pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// 'A BITCOIN GOLD COIN' COIN contract
+// 'ABITCOINGOLD' COIN contract
 //
 // Deployed to : 0x9ef6fA73A41D2B96a995dbf751880B35372589f6
 // Symbol      : ABG
-// Name        : A BITCOIN GOLD COIN
+// Name        : ABITCOINGOLD COIN
 // Total supply: 900000000000000
 // Decimals    : 8
 //
@@ -114,7 +118,7 @@ contract ABITCOINGOLD is ERC20Interface, Owned, SafeMath {
     // ------------------------------------------------------------------------
     constructor() public {
         symbol = "ABG";
-        name = "A BITCOIN GOLD COIN";
+        name = "ABITCOINGOLD COIN";
         decimals = 8;
         _totalSupply = 900000000000000;
         balances[0x9ef6fA73A41D2B96a995dbf751880B35372589f6] = _totalSupply;
